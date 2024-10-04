@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 
 const BLUR_FADE_DELAY = 0.04;
 
-export default function BlogPage() {
+export default function Page() {
   const [projects, setProjects] = useState([]);
 
   useEffect(() => {
