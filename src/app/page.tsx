@@ -264,8 +264,9 @@ className="relative p-8 flex w-full flex-col items-center justify-center overflo
             Check out my latest work
           </h2>
           <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-            I've worked on a variety of projects, from simple websites to complex web applications. Here are a few of my favorites.
-          </p>
+  I&apos;ve worked on a variety of projects, from simple websites to complex web applications. Here are a few of my favorites.
+</p>
+
         </div>
       </div>
     </BlurFade>
