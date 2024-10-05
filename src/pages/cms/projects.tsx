@@ -168,6 +168,7 @@ export default function ProjectsCMS() {
                       ref={(el) => {
                         inputFileRefs.current[index] = el;
                       }}
+                      onChange={(e) => handleGifUpload(index, e)}  
                       accept="image/gif"
                     />
                   </Button>
