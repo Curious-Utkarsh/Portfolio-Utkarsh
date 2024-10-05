@@ -272,7 +272,7 @@ className="relative p-8 flex w-full flex-col items-center justify-center overflo
       </div>
     </BlurFade>
     <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 max-w-[800px] mx-auto">
-      {projects.slice(0, 4).map((project: any, id) => (
+      {projects.reverse().slice(0, 4).map((project: any, id) => (
         <BlurFade key={project.title} delay={BLUR_FADE_DELAY * 12 + id * 0.05}>
           <ProjectCard
             href={project.href}
