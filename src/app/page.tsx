@@ -193,7 +193,7 @@ className="relative p-8 flex w-full flex-col items-center justify-center overflo
           <BlurFade delay={BLUR_FADE_DELAY * 1}>
             <h2 className="text-xl font-bold">Work Experience</h2>
           </BlurFade>
-          {workData.map((work: any, id) => (
+          {workData.reverse().map((work: any, id) => (
             <BlurFade
               key={work.company}
               delay={BLUR_FADE_DELAY * 6 + id * 0.05}
@@ -219,7 +219,7 @@ className="relative p-8 flex w-full flex-col items-center justify-center overflo
           <BlurFade delay={BLUR_FADE_DELAY * 2}>
             <h2 className="text-xl font-bold">Education</h2>
           </BlurFade>
-          {educationData.map((education: any, id) => (
+          {educationData.reverse().map((education: any, id) => (
             <BlurFade
               key={education.school}
               delay={BLUR_FADE_DELAY * 8 + id * 0.05}
@@ -318,7 +318,7 @@ className="relative p-8 flex w-full flex-col items-center justify-center overflo
           </BlurFade>
           <BlurFade delay={BLUR_FADE_DELAY * 4}>
             <ul className="mb-4 ml-4 divide-y divide-dashed border-l">
-              {hackathons.map((project: any, id) => (
+              {hackathons.reverse().map((project: any, id) => (
                 <BlurFade
                   key={project.title + project.dates}
                   delay={BLUR_FADE_DELAY * 15 + id * 0.05}
