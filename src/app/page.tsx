@@ -18,11 +18,12 @@ import { useTheme } from "next-themes";
 import ShineBorder from "@/components/magicui/shine-border";
 
 const slugs = [
-  "typescript", "javascript", "dart", "java", "react", "flutter", "android",
-  "html5", "css3", "nodedotjs", "express", "nextdotjs", "prisma", "amazonaws",
-  "postgresql", "firebase", "nginx", "vercel", "testinglibrary", "jest",
-  "cypress", "docker", "git", "jira", "github", "gitlab", "visualstudiocode",
-  "androidstudio", "sonarqube", "figma",
+  "altiumdesigner", "anaconda", "arduino", "arm", "autocad", "autodesk", "blender", "c", 
+  "cplusplus", "cmake", "debian", "docker", 
+  "espressif", "git", "github", "githubcopilot", "ifttt", "linux", 
+  "micropython", "obsstudio", "nvidia", "openai", "opencv", 
+  "python", "pytorch", "raspberrypi", "ros", "stmicroelectronics", 
+  "tensorflow", "ubuntu", "visualstudiocode"
 ];
 
 const BLUR_FADE_DELAY = 0.1;
