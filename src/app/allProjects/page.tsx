@@ -53,7 +53,7 @@ export default function Page() {
           </BlurFade>
           <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 md:grid-cols-3  ">
 
-            {projects.map((project:any, id) => (
+            {projects.reverse().map((project:any, id) => (
               <BlurFade
                 key={project.title}
                 delay={BLUR_FADE_DELAY * 12 + id * 0.05}
