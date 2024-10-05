@@ -9,7 +9,7 @@ export async function handleApiRequest(
   collectionName: string
 ) {
   const client = await clientPromise;
-  const db = client.db('razzKazashi'); // Replace with your MongoDB database name
+  const db = client.db('kumaru'); // Replace with your MongoDB database name
   const collection = db.collection(collectionName);
 
   switch (req.method) {
