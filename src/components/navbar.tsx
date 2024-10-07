@@ -68,7 +68,7 @@ export default function Navbar() {
             <DockIcon key={name}>
               <Tooltip>
                 <TooltipTrigger asChild>
-                  <Link href={social.url} className={cn(buttonVariants({ variant: "ghost", size: "icon" }), "size-12")}>
+                  <Link target="_blank" rel="noopener noreferrer" href={social.url} className={cn(buttonVariants({ variant: "ghost", size: "icon" }), "size-12")}>
                     <social.icon className="size-4" />
                   </Link>
                 </TooltipTrigger>
